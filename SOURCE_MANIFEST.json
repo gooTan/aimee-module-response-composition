@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "module": "response-composition",
+  "classification": "required",
+  "execution": "process",
+  "runtime": "go",
+  "placements": [
+    "server"
+  ],
+  "principal_class": 1,
+  "principal_ref": 15,
+  "stages": [
+    {
+      "id": 1,
+      "name": "response-composition",
+      "event_kind": 7937
+    }
+  ],
+  "source_sha256": "7eec1f4adf0e1f3ea6007468a8c44966329942770e164bb75437138ec78f93ce",
+  "owned_files": [
+    "src/modules/response-composition/module.yaml",
+    "src/modules/response-composition/module_adapter.c",
+    "src/modules/response-composition/include/aimee/response-composition/module_api.h",
+    "docs/modules/response-composition.md",
+    "server-go/modules/response-composition/response_composition.go",
+    "server-go/modules/response-composition/response_composition_test.go"
+  ]
+}
